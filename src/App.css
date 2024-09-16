@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=SUSE:wght@100..800&display=swap');
+
+.App {
+ min-height: 1000px;
+ height: auto;
+ background-color: #06402b;
+ color:#ffd600;
+ font-family: "SUSE", sans-serif;
+}
+
+
