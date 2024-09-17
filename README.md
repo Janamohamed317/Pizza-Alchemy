@@ -9,31 +9,31 @@ with React, this app leverages modern web technologies to provide a smooth and i
 
 # Key Features
 
-Dynamic Menu Display & Efficient Filtering: Uses React Context and Hooks to dynamically display and filter menu items.
+1- Dynamic Menu Display & Efficient Filtering: Uses React Context and Hooks to dynamically display and filter menu items.
 
-Personalized Ordering: Users can customize their orders with different sizes and extras. Real-time feedback is provided using SweetAlert2.
+2- Personalized Ordering: Users can customize their orders with different sizes and extras. Real-time feedback is provided using SweetAlert2.
 
-Real-Time Cart Management: Instantly updates the cart as users modify quantities or remove items, with dynamic recalculation of the total price.
+3- Real-Time Cart Management: Instantly updates the cart as users modify quantities or remove items, with dynamic recalculation of the total price.
 
-Responsive & Modern UI: Built with Material UI and Bootstrap for a responsive design that adapts to various screen sizes.
+4- Responsive & Modern UI: Built with Material UI and Bootstrap for a responsive design that adapts to various screen sizes.
 
-Streamlined Checkout Process: Includes automatic validation and smooth customer detail capture. React Router ensures seamless navigation.
+5- Streamlined Checkout Process: Includes automatic validation and smooth customer detail capture. React Router ensures seamless navigation.
 
-Enhanced User Navigation: Provides smooth transitions between pages and easy navigation using React Router.
+6- Enhanced User Navigation: Provides smooth transitions between pages and easy navigation using React Router.
 
 # Tech Stack
 
-React: For building the user interface and managing state.
+1- React: For building the user interface and managing state.
 
-React Router: For handling routing and navigation.
+2- React Router: For handling routing and navigation.
 
-React Hooks: (useState, useEffect, useContext, useMemo, useRef) for managing state and side effects.
+3- React Hooks: (useState, useEffect, useContext, useMemo, useRef) for managing state and side effects.
 
-Material UI: For a polished and responsive user interface.
+4- Material UI: For a polished and responsive user interface.
 
-Bootstrap: For additional responsive design components.
+5- Bootstrap: For additional responsive design components.
 
-SweetAlert2: For interactive user feedback.
+6- SweetAlert2: For interactive user feedback.
 
 React Context API: For global state management.
 
@@ -41,7 +41,7 @@ React Context API: For global state management.
 
 1) Clone the repository:
 
-git clone https://github.com/Janamohamed317/Pizza-Alchemy.git
+   git clone https://github.com/Janamohamed317/Pizza-Alchemy.git
 
 2) Navigate into the project directory:
 
