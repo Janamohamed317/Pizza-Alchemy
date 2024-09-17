@@ -64,7 +64,7 @@ function UserInfo() {
       Swal.fire({
         icon: 'success',
         title: 'Form Submitted',
-        text: 'Thank you! Your message has been sent.',
+        text: 'Thank you! Your Order has been Placed.',
       });
       setFormInputs({
         name: '',
