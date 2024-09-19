@@ -19,14 +19,13 @@ function MenuItem({ id, image, name, price, category }) {
             addToCart(saladItem);
             navigate('/cart');
         } else {
-            navigate('/add-to-cart', { state: { id, image, name, price } });
+            navigate('/add-to-cart', { state: { id, image, name } });
         }
     };
     return (
-        <Card sx={{ backgroundColor: '#F5F5DC' , mb:5, height:"94%"}}>
+        <Card sx={{ backgroundColor: '#F5F5DC', mb: 5, height: "94%" }}>
             <CardMedia
                 sx={{
-                    
                     paddingTop: '100%'
                 }}
                 image={image}
@@ -35,12 +34,14 @@ function MenuItem({ id, image, name, price, category }) {
                 <Typography gutterBottom variant="h5" sx={{ color: '#76453B' }}>
                     <strong >{name}</strong>
                 </Typography>
-                <Typography gutterBottom variant="h5" component="div">
-                    {(category === "salad" || category === 'appetizers') ?
-                        <Typography variant='h6' sx={{ color: '#76453B' }}>${parseFloat(price).toFixed(2)}</Typography> :
-                        null
-                    }
-                </Typography>
+
+                {(category === "salad" || category === 'appetizers') ?
+                    <Typography variant='h6' sx={{ color: '#76453B' }}>
+                        ${parseFloat(price).toFixed(2)}
+                    </Typography> :
+                    null
+                }
+
             </CardContent>
             <Box sx={{ display: 'flex', justifyContent: 'flex-end', padding: 1 }}>
                 <IconButton sx={{ color: '#76453B' }} onClick={handleAddToCartClick}>
